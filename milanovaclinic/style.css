@@ -911,6 +911,12 @@ Version: 1.0
     -o-transition: all 0.5s cubic-bezier(.645,.045,.355,1);
     transition: all 0.5s cubic-bezier(.645,.045,.355,1);
 }
+.post-list li.current-menu-item  {
+    background-color: var(--pbmit-global-color);
+}
+.post-list li.current-menu-item a  {
+    color: var(--pbmit-white-color);
+}
 .post-list li:last-child{
 	border-bottom: none;
 }
